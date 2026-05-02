@@ -1,0 +1,42 @@
+root
+ |-- name: string (nullable = true)
+ |-- degree: string (nullable = true)
+ |-- specialty: string (nullable = true)
+ |-- internal-medicine: boolean (nullable = true)
+ |-- family-medicine: boolean (nullable = true)
+ |-- pediatrics: boolean (nullable = true)
+ |-- geriatrics: boolean (nullable = true)
+ |-- cardiology: boolean (nullable = true)
+ |-- nyu: boolean (nullable = true)
+ |-- n_conditions: long (nullable = true)
+ |-- n_treatments: long (nullable = true)
+ |-- latitude: double (nullable = true)
+ |-- longitude: double (nullable = true)
+ |-- patients: string (nullable = true)
+ |-- __index_level_0__: long (nullable = true)
+
++--------------------+------+---------+-----------------+---------------+----------+----------+----------+----+------------+------------+----------+-----------+---------+-----------------+
+|                name|degree|specialty|internal-medicine|family-medicine|pediatrics|geriatrics|cardiology| nyu|n_conditions|n_treatments|  latitude|  longitude| patients|__index_level_0__|
++--------------------+------+---------+-----------------+---------------+----------+----------+----------+----+------------+------------+----------+-----------+---------+-----------------+
+|     Jessica Kennedy|    MD|       IM|             true|          false|     false|     false|     false|true|           1|           6|40.9736443|-73.7417968|    Adult|                0|
+|Jessica Mgbeojirikwe|    MD|       FM|            false|           true|     false|     false|     false|true|           1|           7|40.8388421|-73.2768598|     Both|                1|
+|Salvatore V. Spadaro|    MD|       FM|            false|           true|     false|     false|     false|true|           1|           6|40.7348838|-73.4751282|    Adult|                2|
+|      Sofia Charania|    MD|       PD|            false|          false|      true|     false|     false|true|           1|           7|40.7739049|-73.9490472|Pediatric|                3|
+|      Johanne Jasmin|    NP|       IM|             true|          false|     false|     false|     false|true|           1|           6|40.6359911|-74.0232302|    Adult|                4|
+|Lucelenie Rodrigu...|    MD|       IM|             true|          false|     false|     false|     false|true|           1|           6|40.7510908|-73.9971549|    Adult|                5|
+|     Yelena M. Stone|    MD|       FM|            false|           true|     false|     false|     false|true|           1|           7|40.7348838|-73.4751282|     Both|                6|
+|        Harveen Kaur|    MD|       IM|             true|          false|     false|     false|     false|true|           1|           6|40.7312595|-73.9541495|    Adult|                7|
+| Judlyne Brun-Alfaro|    NP|       FM|            false|           true|     false|     false|     false|true|           1|           6|40.7348838|-73.4751282|    Adult|                8|
+|       Carly Gennaro|    DO|       FM|            false|           true|     false|     false|     false|true|           1|           6|40.7532562|-73.1165658|    Adult|                9|
+| A. Joseph Pisciotto|    MD|       FM|            false|           true|     false|     false|     false|true|           1|           7|40.7321667|-73.6355769|     Both|               10|
+|     Emily A. Sombke|    PA|       IM|             true|          false|     false|     false|     false|true|           1|           6|40.8527989|-73.3994465|    Adult|               11|
+|  Nana A. Acheampong|    NP|       IM|             true|          false|     false|     false|     false|true|           1|           6|40.8300024|-73.4116297|    Adult|               12|
+|      Rajwinder Kaur|    NP|       IM|             true|          false|     false|     false|     false|true|           1|           6| 40.676312|-73.7420269|    Adult|               13|
+|      Deirdre Stokes|    DO|       FM|            false|           true|     false|     false|     false|true|           1|           6|40.7578334|-72.9400099|    Adult|               14|
+|     Hadeel Alkhairw|    MD|       IM|             true|          false|     false|     false|     false|true|           1|           6|41.0634567|-73.8516064|    Adult|               15|
+|        Tenzin Desel|    MD|       IM|             true|          false|     false|     false|     false|true|           1|           6|41.0634567|-73.8516064|    Adult|               16|
+|Michaela B. Domar...|    MD|       PD|            false|          false|      true|     false|     false|true|           1|           7|40.7086765|-74.0115129|Pediatric|               17|
+|       Debra Mesnick|    MD|       PD|            false|          false|      true|     false|     false|true|           1|           7|40.7739049|-73.9490472|Pediatric|               18|
+|   Julie L. Pennetti|    NP|       IM|             true|          false|     false|     false|     false|true|           2|           6|40.5880581|  -73.67414|    Adult|               19|
++--------------------+------+---------+-----------------+---------------+----------+----------+----------+----+------------+------------+----------+-----------+---------+-----------------+
+only showing top 20 rows

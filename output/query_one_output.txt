@@ -1,0 +1,33 @@
+root
+ |-- name: string (nullable = true)
+ |-- degree: string (nullable = true)
+ |-- specialty: string (nullable = true)
+ |-- internal-medicine: boolean (nullable = true)
+ |-- family-medicine: boolean (nullable = true)
+ |-- pediatrics: boolean (nullable = true)
+ |-- geriatrics: boolean (nullable = true)
+ |-- cardiology: boolean (nullable = true)
+ |-- nyu: boolean (nullable = true)
+ |-- n_conditions: long (nullable = true)
+ |-- n_treatments: long (nullable = true)
+ |-- latitude: double (nullable = true)
+ |-- longitude: double (nullable = true)
+ |-- patients: string (nullable = true)
+ |-- __index_level_0__: long (nullable = true)
+
++--------------------+------+---------+-----------------+---------------+----------+----------+----------+----+------------+------------+----------+-----------+---------+-----------------+
+|                name|degree|specialty|internal-medicine|family-medicine|pediatrics|geriatrics|cardiology| nyu|n_conditions|n_treatments|  latitude|  longitude| patients|__index_level_0__|
++--------------------+------+---------+-----------------+---------------+----------+----------+----------+----+------------+------------+----------+-----------+---------+-----------------+
+|     Jessica Kennedy|    MD|       IM|             true|          false|     false|     false|     false|true|           1|           6|40.9736443|-73.7417968|    Adult|                0|
+|Jessica Mgbeojirikwe|    MD|       FM|            false|           true|     false|     false|     false|true|           1|           7|40.8388421|-73.2768598|     Both|                1|
+|Salvatore V. Spadaro|    MD|       FM|            false|           true|     false|     false|     false|true|           1|           6|40.7348838|-73.4751282|    Adult|                2|
+|      Sofia Charania|    MD|       PD|            false|          false|      true|     false|     false|true|           1|           7|40.7739049|-73.9490472|Pediatric|                3|
+|      Johanne Jasmin|    NP|       IM|             true|          false|     false|     false|     false|true|           1|           6|40.6359911|-74.0232302|    Adult|                4|
++--------------------+------+---------+-----------------+---------------+----------+----------+----------+----+------------+------------+----------+-----------+---------+-----------------+
+only showing top 5 rows
++-------------------+
+|total_md_conditions|
++-------------------+
+|                795|
++-------------------+
+
